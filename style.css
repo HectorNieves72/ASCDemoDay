@@ -1,0 +1,115 @@
+/* Entire Body */
+body {
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(88, 185, 192);
+  
+    
+  
+    border: 8px solid rgb(24, 27, 43);
+    margin: 30px;
+    padding: 30px;
+  }
+
+
+  
+ 
+  /* rgb(19, 211, 169)*/
+  #userInput {
+    background-color: aquamarine;
+    border: 5px groove #444444;
+  }
+  
+  #userState {
+   background-color: aquamarine;
+    border: 5px groove #444444;
+  }
+  
+  #zipCodeButton {
+    background-color: rgb(84, 72, 255);
+    border: 5px double rgba(226, 228, 97, 0.801); 
+  }
+  /* add whatever below bois */
+  #vaccineCenters {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .et {
+    border-block-start-color: 5px blueviolet;
+  }
+  #information {
+    font-family: Arial;
+    color: rgb(231, 37, 144);
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
+
+
+
+
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: purple;
+}
+
+
+
+
+
+
+img{
+  display: flex;
+  margin-left: 25%;
+  
+}
+  
+#cf {
+  position:relative;
+  height:400px;
+  width:596px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
+.holders{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 8px solid rgb(24, 27, 43);
+}
+
+#vaccineCenters{
+  display: flex;
+  justify-content: left;
+  border: 8px solid rgb(24, 27, 43);
+  width: 50%;
+  margin: auto;
+}
+
+
+.holders h2{
+  color: black;
+}
